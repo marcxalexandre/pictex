@@ -31,10 +31,10 @@ $ pictex "E = mc^2"
 ![Example 1](docs/images/example-equation.png)
 
 ```bash
-$ pictex "\\int_0^\\infty e^{-x^2} dx = \\frac{\\sqrt{\\pi}}{2}"
+$ pictex "\sum\limits_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}"
 ```
 
-![Example 2](docs/images/integral.png)
+![Example 2](docs/images/basel-problem.png)
 
 ## Requirements
 
