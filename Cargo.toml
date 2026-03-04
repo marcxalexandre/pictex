@@ -4,8 +4,6 @@ version = "0.1.0"
 edition = "2024"
 description = "CLI utility for converting LaTeX math expressions to PNG format"
 categories = ["command-line-utilities", "mathematics"]
-readme = "README.md"
-repository = "https://github.com/BlackMamba360/pictex.git"
 
 [dependencies]
 which = "8.0.0"
