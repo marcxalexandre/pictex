@@ -8,6 +8,7 @@ keywords = ["latex", "tex", "math"]
 license = "MIT"
 readme = "README.md"
 repository = "https://github.com/marcxalexandre/pictex.git"
+exclude = ["docs/*", ".*"]
 
 [dependencies]
 which = "8.0.0"
