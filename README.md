@@ -14,12 +14,11 @@ Arguments:
   <expression>  LaTeX math expression
 
 Options:
-  -o, --output <file>           specify the output file for the image
-  -D, --output-directory <dir>  specify the output directory for the generated files [default: /tmp]
-  -d, --dpi <num>               set the output resolution [default: 500]
-  -q                            Suppress normal output; errors are still displayed
-  -h, --help                    Print help
-  -V, --version                 Print version
+  -o, --output <file>  specify the output file for the image
+  -d, --dpi <num>      set the output resolution [default: 500]
+  -v, --verbose        print detailed progress information
+  -h, --help           Print help
+  -V, --version        Print version
 ```
 
 ### Examples
