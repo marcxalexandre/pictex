@@ -32,7 +32,7 @@ fn main() -> io::Result<()> {
     }
 
     let cli = CLI::parse();
-    let output_dir = PathBuf::from("/tmp");
+    let output_dir = std::env::temp_dir();
     assert!(output_dir.exists() && output_dir.is_dir());
 
     let temp_fn = utility::generate_temp_file_name();
